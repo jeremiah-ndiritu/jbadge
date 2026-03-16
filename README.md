@@ -1,4 +1,4 @@
-# jbadge
+# jbadge (@jeremiah-ndiritu/jbadge)
 
 Lightweight **React badge components** for status, roles, and labels.
 Simple, customizable, and dependency-free.
@@ -18,19 +18,19 @@ Simple, customizable, and dependency-free.
 ## 📦 Installation
 
 ```bash
-npm install jbadge
+npm install @jeremiah-ndiritu/jbadge
 ```
 
 or
 
 ```bash
-pnpm add jbadge
+pnpm add @jeremiah-ndiritu/jbadge
 ```
 
 or
 
 ```bash
-yarn add jbadge
+yarn add @jeremiah-ndiritu/jbadge
 ```
 
 ---
@@ -38,7 +38,7 @@ yarn add jbadge
 ## 🚀 Usage
 
 ```jsx
-import { RoleBadge, StatusBadge } from "jbadge"
+import { RoleBadge, StatusBadge } from "@jeremiah-ndiritu/jbadge"
 
 function App() {
   return (
@@ -117,7 +117,7 @@ You can easily override styles:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/jbadge
+git clone https://github.com/jeremiah-ndiritu/jbadge
 cd jbadge
 ```
 
