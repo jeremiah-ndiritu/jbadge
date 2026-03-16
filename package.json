@@ -1,0 +1,42 @@
+{
+  "name": "@jeremiah-ndiritu/jbadge",
+  "version": "1.0.0",
+  "description": "Lightweight React badge components",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src/index.js --format esm,cjs"
+  },
+  "keywords": [
+    "react",
+    "badge",
+    "badges",
+    "react-components",
+    "ui"
+  ],
+  "author": "Jeremiah Ndiritu",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeremiah-ndiritu/jbadge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeremiah-ndiritu/jbadge/issues"
+  },
+  "homepage": "https://github.com/jeremiah-ndiritu/jbadge#readme",
+  "packageManager": "pnpm@10.30.1",
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1"
+  }
+}
